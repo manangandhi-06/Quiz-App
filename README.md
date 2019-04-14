@@ -2,9 +2,6 @@
 ---
 The Components Used are as follows:
 ---
-**Header:**.
-This Component Consists of the Title.
----
 **Question:**
 This Component defines a particular Question.
 ---
