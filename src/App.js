@@ -4,6 +4,7 @@ import QuestionList from "./components/QuestionList/QuestionList"
 import Result from "./components/Result/Result";
 import Header from "./components/Header/Header"
 import { CSSTransitionGroup } from 'react-transition-group'
+import "./App.css"
 
 class App extends React.Component {
   constructor(props) {
@@ -170,7 +171,7 @@ class App extends React.Component {
     return (
       
       <div className="container-fluid">
-        <Header />
+        <h1 className="title">MCQ Test</h1>
         <div className="card">
           <div className="card-body">
             {boxscore}
